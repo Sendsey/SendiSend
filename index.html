@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"> 
+	<script type="text/javascript" src="jquery-3.6.3.min.js"></script>
+	<script type="text/javascript"src="script.js"></script>
+	<title>Вотсап код</title>
+</head>
+<body>
+    
+
+
+<script>
+if (top.location.search=="") {
+pass = prompt('Введите пароль');
+if (pass=='123') // Ваш пароль акивации
+{ alert('Пароль принят') } else { alert('Пароль непринят!'), top.location.href="" }//Адрес страниц на которую перейдет пользователь при ошибке
+};
+</script>
+    
+    
+    
+	<div style="text-align: center;">
+		<div id='date'>update time:</div><br><br>
+	</div>
+	<div id='qr' style="text-align: center;">
+	</div>
+	<center>
+	1) Перед сканированием кода, уберите в вотсапе фото профиля(аватарку)!
+	</br>
+2) Не общайтесь в вотсапе во время рассылки!
+</br>
+3) Если выдает ошибку, то закройте вотсап полностью, зайдите и снова отсканируйте.
+	</center>
+</body>
+</html>
