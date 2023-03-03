@@ -1,5 +1,5 @@
-const MIN_DELAY = '13'; // <==== минимальная задержка
-const MAX_DELAY = '40'; // <==== максимальная задержка
+const MIN_DELAY = '5'; // <==== минимальная задержка
+const MAX_DELAY = '6'; // <==== максимальная задержка
 const TOKEN = 'KTUD1Du1K6I17GAWyNBh51TDZXVPSuyj0iuGQfBS'; // <==== токен
 const MAILING_TYPE = '1'; // <==== тип рассылки
 const DELEY_TIME = 10000; // <==== время обновления (в миллисекундах)
